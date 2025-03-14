@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// cards := newDeck()
 
@@ -13,6 +11,7 @@ func main() {
 	// greeting := "Hi there!"
 	// fmt.Println([]byte(greeting))
 	cards := newDeck()
-	fmt.Println(cards.toString())
-
+	// fmt.Println(cards.toString())
+	cards.shuffle()
+	cards.print()
 }
